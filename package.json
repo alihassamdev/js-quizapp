@@ -1,0 +1,12 @@
+{
+  "name": "quiz-api",
+  "version": "1.0.0",
+  "description": "Quiz API with JSON Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch server.json --port 10000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
